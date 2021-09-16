@@ -33,7 +33,6 @@ public class EntityEventManager : MonoBehaviour
     {
         DisableHurtbox?.Invoke();
     }
-
     public void Invoke_EnableHurtbox()
     {
         EnableHurtbox?.Invoke();
